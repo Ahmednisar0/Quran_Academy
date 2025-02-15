@@ -69,7 +69,7 @@ export default function Feedback() {
     <div className="p-6 max-w-7xl mx-auto">
     
         <Heading text="Feedback" />
-       <p className='text-base md:text-md py-2 mb-3  transition-transform duration-300 hover:scale-90'>I highly value the excellent feedback of My satisfied Students & their Parents.I have fulfilled countless students’ wishes to learn and Recite the Holy Quran worldwide and still covering the entire community with my skills and dynamic Quran Educating Services.</p>
+       <p className='text-base md:text-md py-2 mb-3  transition-transform duration-300 hover:scale-90'>We highly value the excellent feedback of Our satisfied Students & their Parents.We have fulfilled countless students wishes to learn and Recite the Holy Quran worldwide and still covering the entire community with my skills and dynamic Quran Educating Services.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {reviews.map((review) => (
           <div key={review.id} className="bg-white hover:bg-green-600 hover:text-white p-4 border rounded-lg shadow transition-transform duration-300 hover:scale-105">
