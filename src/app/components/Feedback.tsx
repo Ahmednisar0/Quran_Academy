@@ -56,6 +56,12 @@ const reviews = [
     imageSrc: '/images/girl-8.png',
     reviewText: 'I had a great experience with Quran Academy My Children are really Happy.Online Quran Learning Academy is best.',
   },
+  {
+    id: 10,
+    Name: "Nimra's Mother",
+    imageSrc: '/images/girl-10.png',
+    reviewText: "❤️ I'm one of her student's mother and I can say that she's a really good teacher. Her teaching skills plus her behavior with students is very nice. She teaches very kindly, patiently, without giving any pressure to children ❤️",
+  },
 ];
 
 export default function Feedback() {
