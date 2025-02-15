@@ -93,8 +93,8 @@ const AboutSection = () => {
   <ol className="list-decimal list-inside   ">
     <li className="sm:text-md text-base xl:text-lg">Flexible class timings tailored to the needs of working parents, students, and overseas learners.</li>
     <li className="sm:text-md text-base xl:text-lg">Transparent pricing and convenient online payment methods to ensure smooth transactions.</li>
-    <li className="sm:text-md text-base xl:text-lg">Teacher is certified and experienced in Tajweed, and Islamic Studies, ensuring students receive top-tier education.</li>
-    <li className="sm:text-md text-base xl:text-lg">Female teacher is available for women and children, respecting Islamic preferences and providing a comfortable learning environment.</li>
+    <li className="sm:text-md text-base xl:text-lg">Teachers are certified and experienced in Tajweed, and Islamic Studies, ensuring students receive top-tier education.</li>
+    <li className="sm:text-md text-base xl:text-lg">Female teachers are available for Women and children,Male teachers are also available for  Men and children, respecting Islamic preferences and providing a comfortable learning environment.</li>
   </ol>
 </div>
 
