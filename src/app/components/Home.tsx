@@ -21,8 +21,8 @@ export default function HeroSection() {
 </div>
 
         <div className="mt-3 lg:mt-0 lg:flex-grow lg:w-1/2 lg:pl-16 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center transition-transform duration-300 hover:scale-105">
-        <h2 className="title-font sm:text-2xl text-xl mb-4 font-semibold text-gray-900"><i>Read, Learn, Memorize and Revise</i></h2>
-          <h1 className="title-font sm:text-3xl text-2xl mb-4 font-bold text-gray-900">
+        <h2 className="title-font sm:text-2xl text-xl mb-4 font-bold text-gray-900"><i>Read, Learn, Memorize and Revise</i></h2>
+          <h1 className="title-font sm:text-3xl text-2xl mb-4 font-extrabold text-gray-900">
           
          <i> Online Quran Courses</i>
           </h1>
