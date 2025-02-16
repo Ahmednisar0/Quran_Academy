@@ -21,10 +21,10 @@ export default function HeroSection() {
 </div>
 
         <div className="mt-3 lg:mt-0 lg:flex-grow lg:w-1/2 lg:pl-16 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center transition-transform duration-300 hover:scale-105">
-        <h2 className="title-font sm:text-2xl text-xl mb-4 font-semibold text-gray-900">Read, Learn, Memorize and Revise</h2>
+        <h2 className="title-font sm:text-2xl text-xl mb-4 font-semibold text-gray-900"><i>Read, Learn, Memorize and Revise</i></h2>
           <h1 className="title-font sm:text-3xl text-2xl mb-4 font-bold text-gray-900">
           
-          Online Quran Courses
+         <i> Online Quran Courses</i>
           </h1>
           
           <p className="text-md md:text-lg">
@@ -58,7 +58,19 @@ export default function HeroSection() {
     </Link>
           </div>
         </div>
+       
       </div>
+      <div className="container mx-auto w-full h-[150px] md:h-[300px] overflow-hidden relative bg-slate-300 p-3 mt-6">
+            <Image
+              src="/images/ayahimg.png"
+              alt="image"
+              fill
+              sizes="100vw"
+              className="object-fit object-center w-max-[500px] "
+              priority
+            />
+          </div>
+     
     </section>
   );
 }

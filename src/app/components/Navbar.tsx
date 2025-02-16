@@ -6,11 +6,11 @@ const Navbar = () => {
     <header>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-pink-200">
         <div className="flex title-font font-bold text-xl md:text-4xl items-center text-black">
-          <div className="w-14 h-14 md:w-20 md:h-20 relative">
+          <div className="w-[64px] h-[64px] md:w-20 md:h-20 relative">
             <Image
               src="/images/logo.png"
               alt="Logo"
-              layout="fill"
+             fill
               sizes="(max-width: 768px) 100vw, 50vw" // Add the sizes prop
               className="rounded-full"
               priority

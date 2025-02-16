@@ -5,25 +5,25 @@ const reviews = [
   {
     id: 1,
     Name: "Sana's Mother",
-    imageSrc: '/images/girl-1.png',
+    imageSrc: '/images/sana.jpeg',
     reviewText: "Mashallah, you're doing great! May Allah bless you with happiness always. May Allah protect you, Ameen. My child will learn from you.",
   },
   {
     id: 2,
     Name: "Danish's Mother",
-    imageSrc: '/images/girl-2.jpeg',
+    imageSrc: '/images/hadi.png',
     reviewText: 'Hina MashAllah ap bht acxa treat krti hn bacho ko ap s bachy bht Khush ha r Khushi Khushi parhtyn hain apki tajweed bht pyari ha bacho m b bht acxi itni jldi improvement ai ha Allah pak apko aese hi prhany ki tofeeq dy ameeeeen',
   },
   {
     id: 3,
     Name: "Abdul Ahad's Mother",
-    imageSrc: '/images/girl-3.jpg',
+    imageSrc: '/images/ahad.jpeg',
     reviewText: 'G ماشاءاللہ hum ap sy satisfied hain 🥰 We are Satisfied with you way of Teaching Our kids are happy to learn from you.',
   }, 
   {
     id: 4,
     Name: "Simmi's Mother",
-    imageSrc: '/images/girl-4.jpeg',
+    imageSrc: '/images/ayat.png',
     reviewText: 'Salam sister As my children reading Quran from you Your reading is best every words explanation well to children.Thank you for being guiding Light our child quran journey Your teaching methods highly appreciated And recommended.Thanks hina baji😊'
   }, 
   {
@@ -34,14 +34,14 @@ const reviews = [
   }, 
   {
     id: 6,
-    Name: "Javeria's Mother",
-    imageSrc: '/images/girl-6.jpeg',
+    Name: "Abdullah's Mother",
+    imageSrc: '/images/ab.png',
     reviewText: 'Mashallah, you are doing great! the way you teach my kids is amazing. May Allah Bless you, Ameen.',
   },
   {
     id: 7,
     Name: "Hooriya's Mother",
-    imageSrc: '/images/girl-7.png',
+    imageSrc: '/images/hoori.png',
     reviewText: 'Children Learn from you with great interest. You are a great teacher.',
   }, 
   {
@@ -53,13 +53,13 @@ const reviews = [
   {
     id: 9,
     Name: "Fahad's Mother",
-    imageSrc: '/images/girl-8.png',
+    imageSrc: '/images/fadi.png',
     reviewText: 'I had a great experience with Quran Academy My Children are really Happy.Online Quran Learning Academy is best.',
   },
   {
     id: 10,
     Name: "Nimra's Mother",
-    imageSrc: '/images/girl-10.png',
+    imageSrc: '/images/nimra.png',
     reviewText: "❤️ I'm one of her student's mother and I can say that she's a really good teacher. Her teaching skills plus her behavior with students is very nice. She teaches very kindly, patiently, without giving any pressure to children ❤️",
   },
 ];
@@ -75,14 +75,16 @@ export default function Feedback() {
           <div key={review.id} className="bg-white hover:bg-green-600 hover:text-white p-4 border rounded-lg shadow transition-transform duration-300 hover:scale-105">
             <div className="flex items-center mb-4">
              
-              <div className="w-12 h-12 relative mr-4">
-                <Image
-                  src={review.imageSrc}
-                  alt="client Image"
-                  layout="fill"
-                  className="rounded-full"
-                />
-              </div>
+            <div className="w-12 h-12 relative mr-4">
+  <Image
+    src={review.imageSrc}
+    alt="client Image"
+    fill
+    sizes="(max-width: 768px) 100vw, 50vw" // Add sizes prop for responsive images
+    className="rounded-full object-cover" // Add object-cover to ensure the image fills the container
+    
+  />
+</div>
               <div className="flex">
                 {[...Array(5)].map((_, index) => (
                   <svg
