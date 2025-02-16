@@ -38,7 +38,7 @@ export default function HeroSection() {
             <p className='inline-flex gap-1'> <span><AiFillCheckSquare /></span>HOLY QURAN with Tajweed</p>
             <p className='inline-flex gap-1'> <span><AiFillCheckSquare /></span>Essential Duas For Daily Life</p>
             <p className='inline-flex gap-1'> <span><AiFillCheckSquare /></span>Memorization of the HOLY QURAN</p>
-            <p className='inline-flex gap-1'> <span><AiFillCheckSquare /></span>Namaz Lessons</p>
+            <p className='inline-flex gap-1'> <span><AiFillCheckSquare /></span>Namaz (Salah) Lessons</p>
             <p className='inline-flex gap-1 mb-2'> <span><AiFillCheckSquare /></span>Languages:English & Urdu</p>
           </div>
     
