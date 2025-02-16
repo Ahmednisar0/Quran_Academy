@@ -74,7 +74,7 @@ const AboutSection = () => {
                 <Image
                   className="object-cover object-center rounded"
                   alt="girl"
-                  src="/images/girl-3.jpg" // Ensure this image is in your public directory
+                  src="/images/logo.png" // Ensure this image is in your public directory
                   width={720}
                   height={600}
                   layout="responsive" // Use responsive layout for better control
