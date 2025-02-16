@@ -7,7 +7,7 @@ import { IoLogoWhatsapp } from 'react-icons/io';
 
 const CourseCard = (course : CoursesName) => {
   return (
-    <div className="rounded overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+    <div className=" overflow-hidden rounded shadow-lg transition-transform duration-300 hover:scale-105">
      <div className="relative w-full h-64">
   <Image
     src={course.imageUrl}
